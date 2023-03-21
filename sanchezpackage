@@ -1,0 +1,9 @@
+Package: Sanchez (the name of the package)
+Title: Uses data from MLB Database. a short one-line description of what the package does
+Version: 1.1 the version number of the package, in the format <major>.<minor>.<patch>.<development>
+AuthorsR: Joseph Sanchez, the author of the package, with roles specified in brackets
+Description: The package collects and analyzes data from the MLB database, regarding average MLB pitch velocity by year. Since 2008-2019.
+Depends: dplyr,
+Imports: ggplot2, dplyr, tidyr, and magrittr
+License: MLB
+LazyData: TRUE, (a boolean flag indicating whether or not to include the package's datasets in the package library when installed (in this example, true is used to indicate that the data should be lazily loaded)
